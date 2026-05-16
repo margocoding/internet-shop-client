@@ -1,56 +1,49 @@
 ```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.python-version
+
+# Logs
+*.log
+
 # Environment variables
 .env
 .env.local
 *.env.*
 
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
-target/
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
+# Editor files
+.vscode/
+.idea/
 *.swp
 *.swo
+*~
 
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
 
 # Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Package manager
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# TypeScript/Vite
-*.tsbuildinfo
-vite.config.ts
-
-# Configuration files that might contain secrets
-.env*
-
-# Local configuration overrides
-*.local.*
+# Temporary files
+*.tmp
+*.temp
 ```
